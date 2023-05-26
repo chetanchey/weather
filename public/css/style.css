@@ -1,0 +1,157 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    padding-top: 90px;
+}
+form{
+    text-align: center;
+    display: inline-block;
+    padding: 20px 80px;
+    background-color: rgb(13, 227, 238);
+    border-radius: 10px;
+}
+
+input[type=text]{
+    text-align: center;
+    padding: 5px;
+    margin:5px 30px;
+    border-radius: 5px;
+    color:white;
+    background-color: black;
+    font-weight: bold;
+
+}
+input:hover{
+    color:black;
+    background-color:white;
+    font-weight: bold;
+   
+}
+div{
+    text-align: center;
+    padding-top: 50px;
+
+}
+button{
+    margin-top: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+button:hover{
+    margin-top: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    background: white;
+    color:black;
+    border-radius: 5px;
+}
+.footer{
+    text-align: center;
+    color: white;
+    height: 150px;
+    background-color: black;
+    padding-top: 30px;
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:aqua;
+}
+
+
+@media only screen and (max-width:600px)
+{
+    body{
+        padding: 0;
+        margin-top: 70px;
+        background-color: aqua;
+    }
+    h1{
+        text-align: center;
+        padding-top: 50px;
+        margin-bottom: 30px;
+        font-size: large;
+        display: block;
+    }
+    form{
+        text-align: center;
+        display: inline-block;
+        padding: 20px 0px;
+        margin: 0;
+        border: 0;
+        background-color: rgb(13, 227, 238);
+        border-radius: 10px;
+    }
+    div{
+        text-align: center;
+        display: block;
+        padding: 0;
+        margin:0;
+        padding-top: 50px;
+    }
+    input[type=text]{
+        text-align: center;
+        padding: 5px;
+        margin:5px 30px;
+        border-radius: 5px;
+        color:white;
+        background-color: black;
+        font-weight: bold;
+    
+    }
+    input:hover{
+        color:black;
+        background-color:white;
+        font-weight: bold;
+       
+    }
+    button{
+        margin-top: 5px;
+        padding: 5px 10px;
+        text-decoration: none;
+        background: black;
+        color: white;
+        border-radius: 5px;
+    }
+    button:hover{
+        margin-top: 5px;
+        padding: 5px 10px;
+        text-decoration: none;
+        background: white;
+        color:black;
+        border-radius: 5px;
+    }
+    .footer{
+        text-align: center;
+        color: white;
+        height: 150px;
+        background-color: black;
+        padding-top: 35px;
+        width: 100%;
+        display: block;
+        font-size: small;
+        margin-top:93px;
+        position:static;
+    }
+    
+    a{
+        text-decoration: none;
+        color:white;
+    }
+    a:hover{
+        color:aqua;
+    }
+}

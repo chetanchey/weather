@@ -1,2 +1,2 @@
 # weather
-To Detect weather of particular place using open weather API.
+This project based on weather api provided by openweather.org.
